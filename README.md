@@ -13,3 +13,6 @@
 
 ***Brain-gcd:***
 [Video link](https://asciinema.org/a/ksmarzfQ8o4Ewqie496LWaB9G)
+
+***Brain-progression:***
+[Video link](https://asciinema.org/a/PDfkGwcy1IrXc8FT0kqQ6irob)
