@@ -18,18 +18,13 @@ const calcCommonGreatestDevider = (num1, num2) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const result = [];
-
   const firstNum = random(1, 20);
   const secondNum = random(1, 20);
 
   const question = `${firstNum} ${secondNum}`;
   const correctAnswer = calcCommonGreatestDevider(firstNum, secondNum);
 
-  result.push(question);
-  result.push(correctAnswer);
-
-  return result;
+  return [question, correctAnswer];
 };
 
 export default () => game(description, getQuestionAndAnswer);

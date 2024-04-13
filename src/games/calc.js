@@ -22,20 +22,14 @@ const calcMathExpression = (firstOperand, mathOperator, secondOperand) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const result = [];
-
   const firstNum = random(1, 20);
   const secondNum = random(1, 20);
   const randomOperator = operators[random(0, 2)];
 
   const question = `${firstNum} ${randomOperator} ${secondNum}`;
-
   const correctAnswer = calcMathExpression(firstNum, randomOperator, secondNum);
 
-  result.push(question);
-  result.push(correctAnswer);
-
-  return result;
+  return [question, correctAnswer];
 };
 
 export default () => game(description, getQuestionAndAnswer);

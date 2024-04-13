@@ -16,3 +16,6 @@
 
 ***Brain-progression:***
 [Video link](https://asciinema.org/a/PDfkGwcy1IrXc8FT0kqQ6irob)
+
+***Brain-prime:***
+[Video link](https://asciinema.org/a/CQPBWQAuikwiBDyWbrFUqso1E)
