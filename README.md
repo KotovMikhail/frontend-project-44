@@ -3,6 +3,31 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/db3b4ee9ab1eafe2202b/maintainability)](https://codeclimate.com/github/KotovMikhail/frontend-project-44/maintainability)
 
+
+### Мinimum requirements
+
+```bash
+*-nix OS
+node.js
+```
+
+### Setup project
+
+```bash
+make install
+```
+
+### Start programs
+
+```bash
+make brain-games
+make brain-even
+make brain-calc
+make brain-gcd
+make brain-progression
+make brain-prime
+```
+
 ### Asciinema video demos:
 
 ***Brain-even:***
