@@ -3,7 +3,7 @@ import random from '../utils/utils.js';
 
 const description = 'What is the result of the expression?';
 
-const operands = ['+', '-', '*'];
+const operators = ['+', '-', '*'];
 
 const calcMathExpression = (firstOperand, mathOperator, secondOperand) => {
   let result = '';
@@ -26,7 +26,7 @@ const getQuestionAndAnswer = () => {
 
   const firstNum = random(1, 20);
   const secondNum = random(1, 20);
-  const randomOperator = operands[random(0, 2)];
+  const randomOperator = operators[random(0, 2)];
 
   const question = `${firstNum} ${randomOperator} ${secondNum}`;
 
