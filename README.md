@@ -3,5 +3,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/db3b4ee9ab1eafe2202b/maintainability)](https://codeclimate.com/github/KotovMikhail/frontend-project-44/maintainability)
 
-### Asciinema game example:
+### Brain-even - asciinema video demo:
 [Video link](https://asciinema.org/a/DpmNCLmugW4UEv5edI6CWD9rM)
+
+### Brain-calc - asciinema video demo:
+[Video link](https://asciinema.org/a/tCdJdpHtVcNj24bTtAiJXiDYA)

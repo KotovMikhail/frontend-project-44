@@ -1,20 +1,19 @@
 import game from '../index.js';
+import random from '../utils/utils.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (num) => num % 2 === 0;
 
-const randomInteger = (min, max) => Math.floor(min + Math.random() * (max + 1 - min));
-
 const getQuestionAndAnswer = () => {
-  const arr = [];
-  const question = randomInteger(1, 20);
+  const result = [];
+  const question = random(1, 20);
   const correctAnswer = isEven(question) ? 'yes' : 'no';
 
-  arr.push(question);
-  arr.push(correctAnswer);
+  result.push(question);
+  result.push(correctAnswer);
 
-  return arr;
+  return result;
 };
 
 export default () => game(description, getQuestionAndAnswer);
