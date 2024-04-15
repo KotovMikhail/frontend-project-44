@@ -27,7 +27,7 @@ const getQuestionAndAnswer = () => {
   const [answer, generatedQuestion] = generateProgression(progressionLength);
 
   const question = generatedQuestion;
-  const correctAnswer = answer.toString();
+  const correctAnswer = answer;
 
   return [question, correctAnswer];
 };

@@ -6,19 +6,16 @@ const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
 const calcMathExpression = (firstOperand, mathOperator, secondOperand) => {
-  let result = '';
-
   switch (mathOperator) {
     case '+':
-      result = firstOperand + secondOperand;
-      break;
+      return firstOperand + secondOperand;
     case '-':
-      result = firstOperand - secondOperand;
-      break;
+      return firstOperand - secondOperand;
+    case '*':
+      return firstOperand * secondOperand;
     default:
-      result = firstOperand * secondOperand;
+      throw new Error(`Unknown math operation: '${mathOperator}'!`);
   }
-  return result.toString();
 };
 
 const getQuestionAndAnswer = () => {

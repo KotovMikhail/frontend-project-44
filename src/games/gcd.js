@@ -14,7 +14,7 @@ const calcCommonGreatestDevider = (num1, num2) => {
       break;
     }
   }
-  return result.toString();
+  return result;
 };
 
 const getQuestionAndAnswer = () => {
